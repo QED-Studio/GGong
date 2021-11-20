@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F00B11F27466A810045481C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00B11E27466A810045481C /* BaseViewController.swift */; };
 		4F00B12127466A9A0045481C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00B12027466A9A0045481C /* SplashViewController.swift */; };
+		4F34633D2748DE3D000D3E05 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34633C2748DE3D000D3E05 /* Extension+UIColor.swift */; };
+		4F34633F2748E414000D3E05 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34633E2748E414000D3E05 /* SplashView.swift */; };
 		4F5DE54F27465A6400C9C9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DE54E27465A6400C9C9CA /* AppDelegate.swift */; };
 		4F5DE55827465A6500C9C9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5DE55727465A6500C9C9CA /* Assets.xcassets */; };
 		4F5DE55B27465A6500C9C9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5DE55927465A6500C9C9CA /* LaunchScreen.storyboard */; };
@@ -19,6 +21,8 @@
 		3C96E4D0588D774DF3FCA35E /* Pods_GGong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F00B11E27466A810045481C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4F00B12027466A9A0045481C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4F34633C2748DE3D000D3E05 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		4F34633E2748E414000D3E05 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		4F5DE54B27465A6400C9C9CA /* GGong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5DE54E27465A6400C9C9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F5DE55727465A6500C9C9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4F00B12027466A9A0045481C /* SplashViewController.swift */,
+				4F34633E2748E414000D3E05 /* SplashView.swift */,
 			);
 			path = splash;
 			sourceTree = "<group>";
@@ -89,6 +94,14 @@
 				4F00B11E27466A810045481C /* BaseViewController.swift */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		4F34633B2748DDEB000D3E05 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F34633C2748DE3D000D3E05 /* Extension+UIColor.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 		4F5DE54227465A6300C9C9CA = {
@@ -113,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				4F5DE54E27465A6400C9C9CA /* AppDelegate.swift */,
+				4F34633B2748DDEB000D3E05 /* extension */,
 				4F00B117274667850045481C /* feature */,
 				4F00B118274667970045481C /* resource */,
 			);
@@ -252,7 +266,9 @@
 			files = (
 				4F5DE54F27465A6400C9C9CA /* AppDelegate.swift in Sources */,
 				4F00B11F27466A810045481C /* BaseViewController.swift in Sources */,
+				4F34633F2748E414000D3E05 /* SplashView.swift in Sources */,
 				4F00B12127466A9A0045481C /* SplashViewController.swift in Sources */,
+				4F34633D2748DE3D000D3E05 /* Extension+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
